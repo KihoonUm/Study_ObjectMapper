@@ -19,6 +19,7 @@
 		C4C8758527EC0FBE00DB035B /* Study_ObjectMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8758427EC0FBE00DB035B /* Study_ObjectMapperTests.swift */; };
 		C4C8758F27EC0FBE00DB035B /* Study_ObjectMapperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8758E27EC0FBE00DB035B /* Study_ObjectMapperUITests.swift */; };
 		C4C8759127EC0FBE00DB035B /* Study_ObjectMapperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8759027EC0FBE00DB035B /* Study_ObjectMapperUITestsLaunchTests.swift */; };
+		C4C8759E27EC2B3A00DB035B /* UserDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8759D27EC2B3A00DB035B /* UserDTO.swift */; };
 		C98DA5890A55668632D52077 /* Pods_Study_ObjectMapperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1A19182802F515DE7F89A3 /* Pods_Study_ObjectMapperTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		C4C8758A27EC0FBE00DB035B /* Study_ObjectMapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Study_ObjectMapperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C8758E27EC0FBE00DB035B /* Study_ObjectMapperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_ObjectMapperUITests.swift; sourceTree = "<group>"; };
 		C4C8759027EC0FBE00DB035B /* Study_ObjectMapperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_ObjectMapperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C4C8759D27EC2B3A00DB035B /* UserDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDTO.swift; sourceTree = "<group>"; };
 		C78CBDBEB0AD6C380A4CC5DC /* Pods-Study_ObjectMapper-Study_ObjectMapperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Study_ObjectMapper-Study_ObjectMapperUITests.release.xcconfig"; path = "Target Support Files/Pods-Study_ObjectMapper-Study_ObjectMapperUITests/Pods-Study_ObjectMapper-Study_ObjectMapperUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CD1A19182802F515DE7F89A3 /* Pods_Study_ObjectMapperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Study_ObjectMapperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A3CB0FB792915995508DC4 /* Pods-Study_ObjectMapperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Study_ObjectMapperTests.debug.xcconfig"; path = "Target Support Files/Pods-Study_ObjectMapperTests/Pods-Study_ObjectMapperTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -113,7 +115,6 @@
 				E3A3CB0FB792915995508DC4 /* Pods-Study_ObjectMapperTests.debug.xcconfig */,
 				5C1CCF584E5F7FE97C93E720 /* Pods-Study_ObjectMapperTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -150,6 +151,7 @@
 				C4C8757827EC0FBE00DB035B /* LaunchScreen.storyboard */,
 				C4C8757B27EC0FBE00DB035B /* Info.plist */,
 				C4C8757327EC0FBC00DB035B /* Study_ObjectMapper.xcdatamodeld */,
+				C4C8759D27EC2B3A00DB035B /* UserDTO.swift */,
 			);
 			path = Study_ObjectMapper;
 			sourceTree = "<group>";
@@ -413,6 +415,7 @@
 				C4C8756F27EC0FBC00DB035B /* ViewController.swift in Sources */,
 				C4C8756B27EC0FBC00DB035B /* AppDelegate.swift in Sources */,
 				C4C8756D27EC0FBC00DB035B /* SceneDelegate.swift in Sources */,
+				C4C8759E27EC2B3A00DB035B /* UserDTO.swift in Sources */,
 				C4C8757527EC0FBC00DB035B /* Study_ObjectMapper.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
